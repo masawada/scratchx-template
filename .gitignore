@@ -1,4 +1,4 @@
 node_modules
-main.js
-main.js.map
+/dist/main.js
+/dist/main.js.map
 npm-debug.log
