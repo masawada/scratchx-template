@@ -3,12 +3,14 @@
   "version": "1.0.0",
   "main": "dist/main.js",
   "scripts": {
-    "watch": "watchify -t babelify ./src/main.js -o 'exorcist ./dist/main.js.map > ./dist/main.js' -d"
+    "watch": "watchify -t babelify ./src/main.js -o 'exorcist ./dist/main.js.map > ./dist/main.js' -d",
+    "server": "browser-sync start --server './dist' --files 'dist/main.js'"
   },
   "author": "Masayoshi Wada",
   "license": "MIT",
   "devDependencies": {
     "babelify": "^7.2.0",
+    "browser-sync": "^2.10.1",
     "exorcist": "^0.4.0",
     "watchify": "^3.6.1"
   }
