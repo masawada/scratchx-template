@@ -4,12 +4,14 @@
     "en": {
       "blocks": [
         [" ", "alert %n", "alert", "Hello!"]
-      ]
+      ],
+      "menus": {}
     },
     "ja": {
       "blocks": [
         [" ", "%n とアラートを出す", "alert", "こんにちは!"]
-      ]
+      ],
+      "menus": {}
     }
   }
 }
