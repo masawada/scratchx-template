@@ -3,13 +3,13 @@
   "descriptor": {
     "en": {
       "blocks": [
-        [" ", "alert %n", "alert", "Hello!"]
+        [" ", "alert %s", "alert", "Hello!"]
       ],
       "menus": {}
     },
     "ja": {
       "blocks": [
-        [" ", "%n とアラートを出す", "alert", "こんにちは!"]
+        [" ", "%s とアラートを出す", "alert", "こんにちは!"]
       ],
       "menus": {}
     }
